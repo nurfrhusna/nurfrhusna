@@ -108,7 +108,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Description of role
 
-    - title: Awards & Honors
+  - title: Awards & Honors
     layout: list
     content:
       - layout: left
