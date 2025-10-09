@@ -63,11 +63,14 @@ content:
   - title: Research Interests
     layout: text
     content: |
-      I’m deeply interested in the intersection of Artificial Intelligence (AI) and Human-Computer Interaction (HCI) — 
-      exploring how intelligent systems can make interfaces more adaptive, accessible, and empathetic.
+      <div style="background-color:#f9f9f9; border-left:4px solid #c5d4f0; padding:18px 22px; border-radius:12px; box-shadow:0 2px 6px rgba(0,0,0,0.05); line-height:1.6;">
+        I’m deeply interested in how <b>Artificial Intelligence (AI)</b> and <b>Human–Computer Interaction (HCI)</b> intersect — 
+        how intelligent systems can understand people better and create more natural, human-centered experiences.<br><br>
+        My curiosity lies in <b>Human–AI Interaction</b>, where data, design, and psychology meet to improve how people connect with technology.<br><br>
+        I hope to contribute to creating intelligent interfaces that understand users beyond clicks and commands — 
+        tools that feel personal and meaningful.
+      </div>
 
-      My curiosity lies in Human-AI Interaction, where data, design, and psychology meet to improve how people connect with technology.  
-      I hope to contribute to creating intelligent interfaces that understand users beyond clicks and commands, tools that feel personal and meaningful.
       
   - title: Project Highlights # Title for the section
     layout: list # Type of content section (list/text)
@@ -141,7 +144,7 @@ content:
     content:
       - layout: left
         title: Malaysia Government Scholarship (JPA)
-        caption: 2024 – Present
+        caption: 2022 – Present
         description: |
           Awarded full sponsorship for undergraduate studies in South Korea.
           
@@ -153,7 +156,7 @@ content:
 
       - layout: left
         title: GBED Merit Scholarship
-        caption: 2025
+        caption: Spring 2024
         description: |
           Granted for academic excellence and active community involvement within Yonsei's Global Leader College.
 
@@ -185,8 +188,8 @@ content:
 
       <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px; margin-top:15px;">
         <img src="images/image1.jpg" style="width:22%; border-radius:12px; object-fit:cover; transition:0.3s; transform-origin:center;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-        <img src="images/image2.jpg" style="width:22%; border-radius:12px; object-fit:cover; transition:0.3s; transform-origin:center;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
         <img src="images/image3.jpg" style="width:22%; border-radius:12px; object-fit:cover; transition:0.3s; transform-origin:center;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+        <img src="images/image2.jpg" style="width:22%; border-radius:12px; object-fit:cover; transition:0.3s; transform-origin:center;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
         <img src="images/image4.jpg" style="width:22%; border-radius:12px; object-fit:cover; transition:0.3s; transform-origin:center;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
         <img src="images/image5.jpg" style="width:22%; border-radius:12px; object-fit:cover; transition:0.3s; transform-origin:center;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
         <img src="images/image6.jpg" style="width:22%; border-radius:12px; object-fit:cover; transition:0.3s; transform-origin:center;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
