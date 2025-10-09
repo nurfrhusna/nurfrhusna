@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: "Nur Farah Husna binti Junaidi"
-title: "Computer Science Student | Yonsei Univerisity, South Korea"
+title: "Computer Science Student | Yonsei University, South Korea"
 email: nurfrhusna@gmail.com
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
@@ -180,25 +180,38 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Outside academics, I find joy in **photography**, capturing little moments around me. 
+      Outside academics, I find joy in **photography**, capturing little moments around me — sunlight over buildings, quiet cafés, and the calmness of nature.  
       Here are some of my favorite shots!
 
       <div align="center">
         <img src="images/photo1.jpg" width="30%" style="border-radius:12px; margin:5px;">
         <img src="images/photo2.jpg" width="30%" style="border-radius:12px; margin:5px;">
         <img src="images/photo3.jpg" width="30%" style="border-radius:12px; margin:5px;">
+        <img src="images/photo4.jpg" width="30%" style="border-radius:12px; margin:5px;">
+        <br>
+        <img src="images/photo5.jpg" width="30%" style="border-radius:12px; margin:5px;">
+        <img src="images/photo6.jpg" width="30%" style="border-radius:12px; margin:5px;">
+        <img src="images/photo7.jpg" width="30%" style="border-radius:12px; margin:5px;">
+        <img src="images/photo8.jpg" width="30%" style="border-radius:12px; margin:5px;">
       </div>
 
   - title: Life Moments
     layout: text
     content: |
-      Not everything is about studies; these are small memories that made me smile :)  
-  
+      Not everything is about studying or projects — these are small memories that made me smile, and remind me to enjoy the little things in life 🌿  
+
       <div align="center">
         <img src="images/moment1.jpg" width="30%" style="border-radius:12px; margin:5px;">
         <img src="images/moment2.jpg" width="30%" style="border-radius:12px; margin:5px;">
         <img src="images/moment3.jpg" width="30%" style="border-radius:12px; margin:5px;">
+        <img src="images/moment4.jpg" width="30%" style="border-radius:12px; margin:5px;">
+        <br>
+        <img src="images/moment5.jpg" width="30%" style="border-radius:12px; margin:5px;">
+        <img src="images/moment6.jpg" width="30%" style="border-radius:12px; margin:5px;">
+        <img src="images/moment7.jpg" width="30%" style="border-radius:12px; margin:5px;">
+        <img src="images/moment8.jpg" width="30%" style="border-radius:12px; margin:5px;">
       </div>
+
 
     
 # Footer
