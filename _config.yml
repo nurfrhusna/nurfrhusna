@@ -133,7 +133,7 @@ content:
           position: relative;
           margin: 30px 0;
           padding-left: 30px;
-          border-left: 3px solid #e2b9c2; /* soft pink to match your header */
+          border-left: 3px solid #e2b9c2; /* soft pink accent */
         }
         .timeline-item {
           margin-bottom: 25px;
@@ -161,20 +161,33 @@ content:
       </style>
 
       <div class="timeline">
+
         <div class="timeline-item">
           <div class="timeline-date">2024 – Present</div>
           <h4><b>Yonsei University</b></h4>
           <i>B.S. in Computer Science and Engineering</i><br>
-          <p>Exploring algorithms, HCI, and software design. Actively involved in cross-cultural research environments.</p>
+          <p>Corsework: Data Structure and Algorithms, Probability and Statistic, Introduction to Human-Computer Interaction (HCI)
+          Engaging in cross-cultural learning environments and exploring the connection between design, logic, and technology.</p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2023 – 2024</div>
+          <h4><b>Korean Language & Culture Program</b></h4>
+          <i>Language Education Institute, Seoul National University</i><br>
+          <p>Completed intensive Korean language training while gaining foundational knowledge in CS, including basic programming and mathematics.  
+          The experience strengthened both my academic readiness and cultural adaptability in South Korea.</p>
         </div>
 
         <div class="timeline-item">
           <div class="timeline-date">2020 – 2023</div>
-          <h4><b>Matriculation Programme, Malaysia</b></h4>
-          <i>Pre-University (Computer Science Focus)</i><br>
-          <p>Developed strong analytical and mathematical foundations leading to my current studies.</p>
+          <h4><b>INTEC Education College, Malaysia</b></h4>
+          <i>Korean Preparatory Programme (Computer Science Track)</i><br>
+          <p>Developed a strong foundation in computer science fundamentals, mathematics, and problem-solving skills.  
+          Actively involved in academic and cultural programs that nurtured both discipline and global awareness.</p>
         </div>
+
       </div>
+
 
           
   #- title: Experiences
@@ -249,21 +262,89 @@ content:
       </div>
 
 
-  - title: 🌸 Life Moments
+   - title: 🌸 Life Moments
     layout: text
     content: |
-      Not everything is about studying or projects.. these are small memories that made me smile, and remind me to enjoy the little things in life :) 
+      Not everything is about studying or projects — these are small memories that made me smile, and remind me to enjoy the little things in life 🌿  
 
-      <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px; margin-top:15px;">
-        <img src="images/moment1.jpg" title="Our memory at LEI" style="width:22%; border-radius:12px; object-fit:cover;">
-        <img src="images/moment2.jpg" title="With our teachers" style="width:22%; border-radius:12px; object-fit:cover;">
-        <img src="images/moment3.jpg" title="Graduation Day 🎓" style="width:22%; border-radius:12px; object-fit:cover;">
-        <img src="images/moment4.jpg" title="Snowboarding Trip ❄️" style="width:22%; border-radius:12px; object-fit:cover;">
-        <img src="images/moment5.jpg" title="Celebrating Eid" style="width:22%; border-radius:12px; object-fit:cover;">
-        <img src="images/moment6.jpg" title="My birthday!" style="width:22%; border-radius:12px; object-fit:cover;">
-        <img src="images/moment7.jpg" title="YonGoJeon 💙" style="width:22%; border-radius:12px; object-fit:cover;">
-        <img src="images/moment8.jpg" title="Friends :)" style="width:22%; border-radius:12px; object-fit:cover;">
+      <style>
+        .gallery {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 10px;
+          margin-top: 15px;
+        }
+        .photo {
+          position: relative;
+          width: 22%;
+          border-radius: 12px;
+          overflow: hidden;
+          transition: transform 0.3s;
+        }
+        .photo img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 12px;
+          display: block;
+        }
+        .caption {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background: rgba(0, 0, 0, 0.6);
+          color: #fff;
+          text-align: center;
+          font-size: 0.9em;
+          padding: 5px;
+          opacity: 0;
+          transition: opacity 0.3s ease-in-out;
+        }
+        .photo:hover .caption {
+          opacity: 1;
+        }
+        .photo:hover {
+          transform: scale(1.05);
+        }
+      </style>
+
+      <div class="gallery">
+        <div class="photo">
+          <img src="images/moment1.jpg" alt="Our memory at LEI">
+          <div class="caption">Our memory at LEI 💙</div>
+        </div>
+        <div class="photo">
+          <img src="images/moment2.jpg" alt="With our teachers">
+          <div class="caption">With our teachers 🍎</div>
+        </div>
+        <div class="photo">
+          <img src="images/moment3.jpg" alt="Graduation Day">
+          <div class="caption">Graduation Day 🎓</div>
+        </div>
+        <div class="photo">
+          <img src="images/moment4.jpg" alt="Snowboarding Trip">
+          <div class="caption">Snowboarding Trip ❄️</div>
+        </div>
+        <div class="photo">
+          <img src="images/moment5.jpg" alt="Celebrating Eid">
+          <div class="caption">Celebrating Eid 🌙</div>
+        </div>
+        <div class="photo">
+          <img src="images/moment6.jpg" alt="My Birthday">
+          <div class="caption">My Birthday 🎂</div>
+        </div>
+        <div class="photo">
+          <img src="images/moment7.jpg" alt="YonGoJeon">
+          <div class="caption">YonGoJeon 💙💥</div>
+        </div>
+        <div class="photo">
+          <img src="images/moment8.jpg" alt="Friends">
+          <div class="caption">Friends :)</div>
+        </div>
       </div>
+
 
   - title: 
     layout: text
