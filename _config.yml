@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: "Nur Farah Husna binti Junaidi"
-title: "Computer Science | Life, code, and everything in between"
+title: "Computer Science Undergraduate"
 email: nurfrhusna@gmail.com
 email_title: Let's talk
 # phone: Your phone number (optional)
@@ -35,8 +35,8 @@ googlescholar_username:
 
 # Additional icon links
 additional_links:
-- title: "**CV**"
-  #icon: fas fa-file-pdf
+- title: CV
+  icon: fas fa-file-pdf
   url: http://nurfrhusna.github.io/cv.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
@@ -63,13 +63,12 @@ content:
   - title: Research Interests
     layout: text
     content: |
-      <div style="background-color:#f9f9f9; border-left:4px solid #c5d4f0; padding:18px 22px; border-radius:12px; box-shadow:0 2px 6px rgba(0,0,0,0.05); line-height:1.6;">
-        I’m deeply interested in how <b>Artificial Intelligence (AI)</b> and <b>Human–Computer Interaction (HCI)</b> intersect — 
-        how intelligent systems can understand people better and create more natural, human-centered experiences.<br><br>
-        My curiosity lies in <b>Human–AI Interaction</b>, where data, design, and psychology meet to improve how people connect with technology.<br><br>
-        I hope to contribute to creating intelligent interfaces that understand users beyond clicks and commands — 
-        tools that feel personal and meaningful.
-      </div>
+      I’m deeply interested by how Artificial Intelligence (AI) and Human-Computer Interaction (HCI) intersect,
+      how intelligent systemss can understand people better and create more natural, human-centered experiences.
+      
+      My curiosity lies in Human-AI Interaction, where data, design, and psychology meet to improve how people connect with technology.  
+      I hope to contribute to creating intelligent interfaces that understand users beyond clicks and commands, tools that feel personal and meaningful.  make the box here
+      
 
       
   - title: Project Highlights # Title for the section
@@ -113,18 +112,70 @@ content:
           Designed an interactive decision-making system to help users choose between options intuitively.
           Learned to visualize logic and apply creative thinking to coding.
 
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Yonsei University
-        sub_title: B.S. in Computer Science and Engineering
-        caption: 2024 - Present
+  #- title: Education
+    #layout: list
+    #content:
+     # - layout: top-right
+      #  title: Yonsei University
+       # sub_title: B.S. in Computer Science and Engineering
+        #caption: 2024 - Present
         #quote: >
           #Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          - Coursework: Data Structures and Algorithm, Probability & Statistic, Introduction to HCI
-          - Developed solid foundations in programming, critical thinking, and design logic.
+        #description: | # this will include new lines to allow paragraphs
+         # - Coursework: Data Structures and Algorithm, Probability & Statistic, Introduction to HCI
+          #- Developed solid foundations in programming, critical thinking, and design logic.
+
+  - title: Education
+    layout: text
+    content: |
+      <style>
+        .timeline {
+          position: relative;
+          margin: 30px 0;
+          padding-left: 30px;
+          border-left: 3px solid #e2b9c2; /* soft pink to match your header */
+        }
+        .timeline-item {
+          margin-bottom: 25px;
+          position: relative;
+        }
+        .timeline-item::before {
+          content: "";
+          position: absolute;
+          left: -10px;
+          top: 5px;
+          width: 12px;
+          height: 12px;
+          background-color: #fff;
+          border: 3px solid #e2b9c2;
+          border-radius: 50%;
+        }
+        .timeline-date {
+          background: #f5e6ea;
+          padding: 3px 10px;
+          border-radius: 6px;
+          font-size: 0.9em;
+          font-weight: 500;
+          color: #573c44;
+        }
+      </style>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">2024 – Present</div>
+          <h4><b>Yonsei University</b></h4>
+          <i>B.S. in Computer Science and Engineering</i><br>
+          <p>Exploring algorithms, HCI, and software design. Actively involved in cross-cultural research environments.</p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2020 – 2023</div>
+          <h4><b>Matriculation Programme, Malaysia</b></h4>
+          <i>Pre-University (Computer Science Focus)</i><br>
+          <p>Developed strong analytical and mathematical foundations leading to my current studies.</p>
+        </div>
+      </div>
+
           
   #- title: Experiences
     #layout: list
@@ -201,7 +252,7 @@ content:
   - title: Life Moments
     layout: text
     content: |
-      Not everything is about studying or projects — these are small memories that made me smile, and remind me to enjoy the little things in life 🌿  
+      Not everything is about studying or projects — these are small memories that made me smile, and remind me to enjoy the little things in life :) 
 
       <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px; margin-top:15px;">
         <img src="images/moment1.jpg" style="width:22%; border-radius:12px; object-fit:cover; transition:0.3s; transform-origin:center;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
@@ -214,6 +265,12 @@ content:
         <img src="images/moment8.jpg" style="width:22%; border-radius:12px; object-fit:cover; transition:0.3s; transform-origin:center;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
       </div>
 
+  - title: Words I keep in mind
+    layout: text
+    content: |
+      <div style="text-align:center; font-style:italic; color:#777;">
+      “Design is not just what it looks like and feels like. Design is how it works.” — Steve Jobs
+      </div>
 
 
     
