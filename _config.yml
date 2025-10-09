@@ -190,15 +190,16 @@ content:
       </div>
 
   - title: Life Moments
-      layout: text
-      content: |
-        Not everything is about studies, these are small memories that made me smile :)  
+    layout: text
+    content: |
+      Not everything is about studies; these are small memories that made me smile :)  
   
-        <div align="center">
-          <img src="images/moment1.jpg" width="30%" style="border-radius:12px; margin:5px;">
-          <img src="images/moment2.jpg" width="30%" style="border-radius:12px; margin:5px;">
-          <img src="images/moment3.jpg" width="30%" style="border-radius:12px; margin:5px;">
-        </div>
+      <div align="center">
+        <img src="images/moment1.jpg" width="30%" style="border-radius:12px; margin:5px;">
+        <img src="images/moment2.jpg" width="30%" style="border-radius:12px; margin:5px;">
+        <img src="images/moment3.jpg" width="30%" style="border-radius:12px; margin:5px;">
+      </div>
+
     
 # Footer
 footer_show_references: true
@@ -206,7 +207,7 @@ footer_show_references: true
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
