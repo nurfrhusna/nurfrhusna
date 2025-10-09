@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: "Nur Farah Husna binti Junaidi"
-title: "B.S. in Computer Science, Yonsei University"
+title: "Computer Science Student | Yonsei Univerisity, South Korea"
 email: nurfrhusna@gmail.com
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
@@ -52,35 +52,63 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I'm a sophomore majoring in Computer Science and Engineering at Yonsei University, South Korea. 
-  I am passionate about Human-Computer Interaction (HCI), front-end development, and user
-  experience design (UX Design).
-
-  Living and studying in South Korea has thought me to embrace cultural diversity, adaptibility,
-  and creativity. I enjoy learning through projects that combine logic, design, and empathy-bridging 
-  technical skills with human-centered problems-solving.
-
+  Hello! I am **Farah**, a Computer Science and Engineering student from **Malaysia**, currently pursuing my 
+  bachelor's degree at **Yonsei University, South Korea**. 
+  
+  Living and studying abroad has taught me to embrace adaptability, empathy, and creativity. I enjoy projects that
+  bridge **logic and design**,finding joy in crafting technology that feels intuitive and warm to the user.
+  
 content:
-  - title: Projects # Title for the section
+
+  - title: Research Interests
+    layout: text
+    content: |
+      I’m deeply interested in the intersection of **Artificial Intelligence (AI)** and **Human-Computer Interaction (HCI)** — 
+      exploring how intelligent systems can make interfaces more adaptive, accessible, and empathetic.
+
+      My curiosity lies in **Human-AI Interaction**, where data, design, and psychology meet to improve how people connect with technology.  
+      I hope to contribute to creating intelligent interfaces that understand users beyond clicks and commands, tools that feel personal and meaningful.
+      
+  - title: Project Highlights # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: Back2U - Lost & Found App Prototype
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #link_text: Link Text
+        #additional_links:
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #icon: fab fa-github
+            #url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #icon: fab fa-github
+            #url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+          A mobile prototype designed for university community.
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          Designed and prototyped an app that helps students return lost items more easily.
+          Focus on **usability**, **empathy-driven UI**, and smooth user workflows using Figma.
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Decision Maker Program
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #link_text: Link Text
+        #additional_links:
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #icon: fab fa-github
+            #url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #icon: fab fa-github
+            #url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          A simple creative coding project built on PlayEntry.
+        description: | # this will include new lines to allow paragraphs
+          Designed an interactive decision-making system to help users choose between options intuitively.
+          Learned to visualize logic and apply **creative thinking to coding**.
 
   - title: Education
     layout: list
@@ -89,37 +117,37 @@ content:
         title: Yonsei University
         sub_title: B.S. in Computer Science and Engineering
         caption: 2024 - Present
-        quote: >
-          Short institution or course description (optional)
+        #quote: >
+          #Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          - Studying core topics in programming, alghorithms, and HCI.
-          - Actively engaged in cross-cultural and research-driven academic environments.
+          - Coursework: Data Structures and Algorithm, Probability & Statistic, Introduction to HCI
+          - Developed solid foundations in programming, critical thinking, and design logic.
           
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+  #- title: Experiences
+    #layout: list
+    #content:
+      #- layout: right
+        #title: Company name
+        #sub_title: Job title
+        #caption: Date Range (eg. November 2016 - present)
+        #link: Link to company (optional)
+        #quote: >
+         # Short description of the company (optional)
+        #description: | # this will include new lines to allow paragraphs
+          #Description of role
 
   - title: Awards & Honors
     layout: list
     content:
       - layout: left
-        title: JPA Full Scholarship
+        title: Malaysia Government Scholarship (JPA)
         caption: 2024 – Present
         description: |
-          Awarded full sponsorship for undergraduate studies at Yonsei University.
-
+          Awarded full sponsorship for undergraduate studies in South Korea.
+          
       - layout: left
         title: GLC Distinction Award
-        caption: 2025
+        caption: Fall 2024
         description: |
           Recognized for outstanding academic performance in Information Engineering & Contemporary Society.
 
@@ -127,15 +155,38 @@ content:
         title: GBED Merit Scholarship
         caption: 2025
         description: |
-          Granted based on academic excellence and community involvement within the Global Leader College.
+          Granted for academic excellence and active community involvement within Yonsei's Global Leader College.
+
+  - title: Skills
+    layout: list
+    content:
+      - layout: top-right
+        title: Programming
+        description: |
+          **Python**, **C++**, **Java**
+
+      - layout: top-right
+        title: Tools & Design
+        description: |
+          **Figma**
+
+      - layout: top-right
+        title: Languages
+        description: |
+          **Malay** (Native)  
+          **English** (Full Professional Proficiency)  
+          **Korean** (Limited Working Proficiency, TOPiK Level 5 – 2024)
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Outside if academics, i find joy in photography - capturing nature, architecture, and everyday life moments around Seoul.
+      Outside academics, i find joy in **photography**, capturing nature, architecture, and everyday life moments.
 
-      I also enjoy journaling and traveling, often lending my love for storytelling and visuals to document ny experience abroad.
-      These hobbies keep me grounded and inspired to continue growing as both a learner and creator.
+      These hobbies keep me inspired, reminding me that creativity and curiousity go hand in hand.
+      
+      <div align="center">
+        <img src="images/banner.jpg" width="85%" style="border-radius:12px; margin-top:15px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+      </div>
 
 # Footer
 footer_show_references: true
