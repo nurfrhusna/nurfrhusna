@@ -60,7 +60,7 @@ about_content: | # this will include new lines to allow paragraphs
   
 content:
 
-  - title: 🌸 Research Interests
+  - title: Research Interests
     layout: text
     content: |
       I’m deeply interested by how Artificial Intelligence (AI) and Human-Computer Interaction (HCI) intersect,
@@ -71,7 +71,7 @@ content:
       
 
       
-  - title: 🌸 Project Highlights # Title for the section
+  - title: Project Highlights # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -125,7 +125,7 @@ content:
          # - Coursework: Data Structures and Algorithm, Probability & Statistic, Introduction to HCI
           #- Developed solid foundations in programming, critical thinking, and design logic.
 
-  - title: 🌸 Education
+  - title: Education
     layout: text
     content: |
       <style>
@@ -190,7 +190,7 @@ content:
         #description: | # this will include new lines to allow paragraphs
           #Description of role
 
-  - title: 🌸 Awards & Honors
+  - title: Awards & Honors
     layout: list
     content:
       - layout: left
@@ -211,7 +211,7 @@ content:
         description: |
           Granted for academic excellence and active community involvement within Yonsei's Global Leader College.
 
-  - title: 🌸 Skills
+  - title: Skills
     layout: list
     content:
       - layout: left
@@ -252,17 +252,17 @@ content:
   - title: 🌸 Life Moments
     layout: text
     content: |
-      Not everything is about studying or projects — these are small memories that made me smile, and remind me to enjoy the little things in life :) 
+      Not everything is about studying or projects.. these are small memories that made me smile, and remind me to enjoy the little things in life :) 
 
       <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px; margin-top:15px;">
-        <img src="images/moment1.jpg" style="width:22%; border-radius:12px; object-fit:cover; transition:0.3s; transform-origin:center;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-        <img src="images/moment2.jpg" style="width:22%; border-radius:12px; object-fit:cover; transition:0.3s; transform-origin:center;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-        <img src="images/moment3.jpg" style="width:22%; border-radius:12px; object-fit:cover; transition:0.3s; transform-origin:center;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-        <img src="images/moment4.jpg" style="width:22%; border-radius:12px; object-fit:cover; transition:0.3s; transform-origin:center;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-        <img src="images/moment5.jpg" style="width:22%; border-radius:12px; object-fit:cover; transition:0.3s; transform-origin:center;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-        <img src="images/moment6.jpg" style="width:22%; border-radius:12px; object-fit:cover; transition:0.3s; transform-origin:center;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-        <img src="images/moment7.jpg" style="width:22%; border-radius:12px; object-fit:cover; transition:0.3s; transform-origin:center;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-        <img src="images/moment8.jpg" style="width:22%; border-radius:12px; object-fit:cover; transition:0.3s; transform-origin:center;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+        <img src="images/moment1.jpg" title="Our memory at LEI" style="width:22%; border-radius:12px; object-fit:cover;">
+        <img src="images/moment2.jpg" title="With our teachers" style="width:22%; border-radius:12px; object-fit:cover;">
+        <img src="images/moment3.jpg" title="Graduation Day 🎓" style="width:22%; border-radius:12px; object-fit:cover;">
+        <img src="images/moment4.jpg" title="Snowboarding Trip ❄️" style="width:22%; border-radius:12px; object-fit:cover;">
+        <img src="images/moment5.jpg" title="Celebrating Eid" style="width:22%; border-radius:12px; object-fit:cover;">
+        <img src="images/moment6.jpg" title="My birthday!" style="width:22%; border-radius:12px; object-fit:cover;">
+        <img src="images/moment7.jpg" title="YonGoJeon 💙" style="width:22%; border-radius:12px; object-fit:cover;">
+        <img src="images/moment8.jpg" title="Friends :)" style="width:22%; border-radius:12px; object-fit:cover;">
       </div>
 
   - title: 
