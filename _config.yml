@@ -20,7 +20,7 @@ darkmode: never
 
 # Social links
 twitter_username: 
-github_username:  nurfrhusna
+github_username:  
 stackoverflow_username: 
 dribbble_username: 
 facebook_username: 
@@ -52,21 +52,21 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello! I am **Farah**, a Computer Science and Engineering student from **Malaysia**, currently pursuing my 
-  bachelor's degree at **Yonsei University, South Korea**. 
+  Hello! I am Farah, a Computer Science and Engineering student from Malaysia, currently pursuing my 
+  bachelor's degree at Yonsei University, South Korea. 
   
   Living and studying abroad has taught me to embrace adaptability, empathy, and creativity. I enjoy projects that
-  bridge **logic and design**,finding joy in crafting technology that feels intuitive and warm to the user.
+  bridge logic and design,finding joy in crafting technology that feels intuitive and warm to the user.
   
 content:
 
   - title: Research Interests
     layout: text
     content: |
-      I’m deeply interested in the intersection of **Artificial Intelligence (AI)** and **Human-Computer Interaction (HCI)** — 
+      I’m deeply interested in the intersection of Artificial Intelligence (AI) and Human-Computer Interaction (HCI) — 
       exploring how intelligent systems can make interfaces more adaptive, accessible, and empathetic.
 
-      My curiosity lies in **Human-AI Interaction**, where data, design, and psychology meet to improve how people connect with technology.  
+      My curiosity lies in Human-AI Interaction, where data, design, and psychology meet to improve how people connect with technology.  
       I hope to contribute to creating intelligent interfaces that understand users beyond clicks and commands, tools that feel personal and meaningful.
       
   - title: Project Highlights # Title for the section
@@ -89,7 +89,7 @@ content:
           A mobile prototype designed for university community.
         description: | # this will include new lines to allow paragraphs
           Designed and prototyped an app that helps students return lost items more easily.
-          Focus on **usability**, **empathy-driven UI**, and smooth user workflows using Figma.
+          Focus on usability, empathy-driven UI, and smooth user workflows using Figma.
 
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
@@ -108,7 +108,7 @@ content:
           A simple creative coding project built on PlayEntry.
         description: | # this will include new lines to allow paragraphs
           Designed an interactive decision-making system to help users choose between options intuitively.
-          Learned to visualize logic and apply **creative thinking to coding**.
+          Learned to visualize logic and apply creative thinking to coding.
 
   - title: Education
     layout: list
@@ -163,31 +163,43 @@ content:
       - layout: top-right
         title: Programming
         description: |
-          **Python**, **C++**, **Java**
+          Python, C++, Java
 
       - layout: top-right
         title: Tools & Design
         description: |
-          **Figma**
+          Figma
 
       - layout: top-right
         title: Languages
         description: |
-          **Malay** (Native)  
-          **English** (Full Professional Proficiency)  
-          **Korean** (Limited Working Proficiency, TOPiK Level 5 – 2024)
+          Malay (Native)  
+          English (Full Professional Proficiency)  
+          Korean (Limited Working Proficiency, TOPiK Level 5 – 2024)
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Outside academics, i find joy in **photography**, capturing nature, architecture, and everyday life moments.
+      Outside academics, I find joy in **photography**, capturing little moments around me. 
+      Here are some of my favorite shots!
 
-      These hobbies keep me inspired, reminding me that creativity and curiousity go hand in hand.
-      
       <div align="center">
-        <img src="images/banner.jpg" width="85%" style="border-radius:12px; margin-top:15px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <img src="images/photo1.jpg" width="30%" style="border-radius:12px; margin:5px;">
+        <img src="images/photo2.jpg" width="30%" style="border-radius:12px; margin:5px;">
+        <img src="images/photo3.jpg" width="30%" style="border-radius:12px; margin:5px;">
       </div>
 
+  - title: Life Moments
+      layout: text
+      content: |
+        Not everything is about studies, these are small memories that made me smile :)  
+  
+        <div align="center">
+          <img src="images/moment1.jpg" width="30%" style="border-radius:12px; margin:5px;">
+          <img src="images/moment2.jpg" width="30%" style="border-radius:12px; margin:5px;">
+          <img src="images/moment3.jpg" width="30%" style="border-radius:12px; margin:5px;">
+        </div>
+    
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
