@@ -60,7 +60,7 @@ about_content: | # this will include new lines to allow paragraphs
   
 content:
 
-  - title: Research Interests
+  - title: 🌸 Research Interests
     layout: text
     content: |
       I’m deeply interested by how Artificial Intelligence (AI) and Human-Computer Interaction (HCI) intersect,
@@ -71,7 +71,7 @@ content:
       
 
       
-  - title: Project Highlights # Title for the section
+  - title: 🌸 Project Highlights # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -125,7 +125,7 @@ content:
          # - Coursework: Data Structures and Algorithm, Probability & Statistic, Introduction to HCI
           #- Developed solid foundations in programming, critical thinking, and design logic.
 
-  - title: Education
+  - title: 🌸 Education
     layout: text
     content: |
       <style>
@@ -190,7 +190,7 @@ content:
         #description: | # this will include new lines to allow paragraphs
           #Description of role
 
-  - title: Awards & Honors
+  - title: 🌸 Awards & Honors
     layout: list
     content:
       - layout: left
@@ -211,27 +211,27 @@ content:
         description: |
           Granted for academic excellence and active community involvement within Yonsei's Global Leader College.
 
-  - title: Skills
+  - title: 🌸 Skills
     layout: list
     content:
-      - layout: top-right
-        title: Programming
+      - layout: left
+        title: Programming Language
         description: |
           Python, C++, Java
 
-      - layout: top-right
+      - layout: left
         title: Tools & Design
         description: |
           Figma
 
-      - layout: top-right
-        title: Languages
+      - layout: left
+        title: Languages 
         description: |
           Malay (Native)  
           English (Full Professional Proficiency)  
           Korean (Limited Working Proficiency, TOPiK Level 5 – 2024)
 
-  - title: A Little More About Me
+  - title: 🌸 A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       Outside academics, I find joy in **photography**, capturing little moments around me — sunlight over buildings, quiet cafés, and the calmness of nature.  
@@ -249,7 +249,7 @@ content:
       </div>
 
 
-  - title: Life Moments
+  - title: 🌸 Life Moments
     layout: text
     content: |
       Not everything is about studying or projects — these are small memories that made me smile, and remind me to enjoy the little things in life :) 
@@ -265,7 +265,7 @@ content:
         <img src="images/moment8.jpg" style="width:22%; border-radius:12px; object-fit:cover; transition:0.3s; transform-origin:center;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
       </div>
 
-  - title: Words I keep in mind
+  - title: 
     layout: text
     content: |
       <div style="text-align:center; font-style:italic; color:#777;">
