@@ -259,7 +259,7 @@ content:
       Outside academics, I find joy in **photography**, capturing little moments around me.
       Here are some of my favorite shots! 📸
 
-<style>
+      <style>
         .gallery {
           display: flex;
           flex-wrap: wrap;
