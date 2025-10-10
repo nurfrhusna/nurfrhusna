@@ -398,8 +398,7 @@ content:
         </div>
       </div>
 
-
-  - title: 
+  - title: "<span style='display:none;'>quote</span>"
     layout: text
     content: |
       <div style="text-align:center; font-style:italic; color:#777;">
