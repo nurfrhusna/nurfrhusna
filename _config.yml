@@ -56,7 +56,7 @@ about_content: | # this will include new lines to allow paragraphs
   bachelor's degree at Yonsei University, South Korea. 
   
   Living and studying abroad has taught me to embrace adaptability, empathy, and creativity. I enjoy projects that
-  bridge logic and design,finding joy in crafting technology that feels intuitive and warm to the user.
+  bridge logic and design, finding joy in crafting technology that feels intuitive and warm to users.
   
 content:
 
@@ -64,10 +64,10 @@ content:
     layout: text
     content: |
       I’m deeply interested by how Artificial Intelligence (AI) and Human-Computer Interaction (HCI) intersect,
-      how intelligent systemss can understand people better and create more natural, human-centered experiences.
+      how intelligent systems can understand people better and create more natural and human-centered experiences.
       
-      My curiosity lies in Human-AI Interaction, where data, design, and psychology meet to improve how people connect with technology.  
-      I hope to contribute to creating intelligent interfaces that understand users beyond clicks and commands, tools that feel personal and meaningful.  make the box here
+      My curiosity lies in Human-AI Interaction, where data, design and psychology combined to improve how people connect with technology.  
+      I hope to contribute to creating intelligent interfaces that understand users more than clicks and commands, creating tools that feel personal and meaningful.
       
 
       
@@ -88,15 +88,15 @@ content:
             #icon: fab fa-github
             #url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          A mobile prototype designed for university community.
+          A mobile prototype designed for Yonsei university community.
         description: | # this will include new lines to allow paragraphs
-          Designed and prototyped an app that helps students return lost items more easily.
+          Designed and prototyped an app that helps students report and return lost items efficiently.
           Focus on usability, empathy-driven UI, and smooth user workflows using Figma.
 
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Decision Maker Program
+        title: Pick and Choose - Decision Maker Program
         #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         #link_text: Link Text
         #additional_links:
@@ -166,8 +166,7 @@ content:
           <div class="timeline-date">2024 – Present</div>
           <h4><b>Yonsei University</b></h4>
           <i>B.S. in Computer Science and Engineering</i><br>
-          <p>Corsework: Data Structure and Algorithms, Probability and Statistic, Introduction to Human-Computer Interaction (HCI)
-          Engaging in cross-cultural learning environments and exploring the connection between design, logic, and technology.</p>
+          <p>Corsework: Data Structure and Algorithms, Probability and Statistic, Introduction to Human-Computer Interaction (HCI).</p>
         </div>
 
         <div class="timeline-item">
@@ -182,13 +181,9 @@ content:
           <div class="timeline-date">2020 – 2023</div>
           <h4><b>INTEC Education College, Malaysia</b></h4>
           <i>Korean Preparatory Programme (Computer Science Track)</i><br>
-          <p>Developed a strong foundation in computer science fundamentals, mathematics, and problem-solving skills.  
-          Actively involved in academic and cultural programs that nurtured both discipline and global awareness.</p>
+          <p>Developed a strong foundation in computer science fundamentals, mathematics, and problem-solving skills.</p>
         </div>
-
       </div>
-
-
           
   #- title: Experiences
     #layout: list
@@ -247,25 +242,92 @@ content:
   - title: 🌸 A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Outside academics, I find joy in **photography**, capturing little moments around me — sunlight over buildings, quiet cafés, and the calmness of nature.  
-      Here are some of my favorite shots!
+      Outside academics, I find joy in **photography**, capturing little moments around me.
+      Here are some of my favorite shots! 📸
 
-      <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px; margin-top:15px;">
-        <img src="images/image1.jpg" style="width:22%; border-radius:12px; object-fit:cover; transition:0.3s; transform-origin:center;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-        <img src="images/image3.jpg" style="width:22%; border-radius:12px; object-fit:cover; transition:0.3s; transform-origin:center;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-        <img src="images/image2.jpg" style="width:22%; border-radius:12px; object-fit:cover; transition:0.3s; transform-origin:center;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-        <img src="images/image4.jpg" style="width:22%; border-radius:12px; object-fit:cover; transition:0.3s; transform-origin:center;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-        <img src="images/image5.jpg" style="width:22%; border-radius:12px; object-fit:cover; transition:0.3s; transform-origin:center;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-        <img src="images/image6.jpg" style="width:22%; border-radius:12px; object-fit:cover; transition:0.3s; transform-origin:center;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-        <img src="images/image7.jpg" style="width:22%; border-radius:12px; object-fit:cover; transition:0.3s; transform-origin:center;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-        <img src="images/image8.jpg" style="width:22%; border-radius:12px; object-fit:cover; transition:0.3s; transform-origin:center;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+      <style>
+        .gallery {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 10px;
+          margin-top: 15px;
+        }
+        .photo {
+          position: relative;
+          width: 22%;
+          border-radius: 12px;
+          overflow: hidden;
+          transition: transform 0.3s ease;
+        }
+        .photo img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 12px;
+          display: block;
+        }
+        .caption {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background: rgba(0, 0, 0, 0.65);
+          color: #fff;
+          text-align: center;
+          font-size: 1em; /* bigger text */
+          padding: 8px;
+          opacity: 0;
+          transition: opacity 0.3s ease-in-out;
+        }
+        .photo:hover .caption {
+          opacity: 1;
+        }
+        .photo:hover {
+          transform: scale(1.05);
+        }
+      </style>
+
+      <div class="gallery">
+        <div class="photo">
+          <img src="images/image1.jpg" alt="Golden hour">
+          <div class="caption">Golden hour</div>
+        </div>
+        <div class="photo">
+          <img src="images/image3.jpg" alt="Kota Kinabalu City Mosque">
+          <div class="caption">Kota Kinabalu City Mosque</div>
+        </div>
+        <div class="photo">
+          <img src="images/image2.jpg" alt="Pretty sunset">
+          <div class="caption">Pretty sunset</div>
+        </div>
+        <div class="photo">
+          <img src="images/image4.jpg" alt="Night at Melaka Chinatown">
+          <div class="caption">Night at Melaka Chinatown</div>
+        </div>
+        <div class="photo">
+          <img src="images/image5.jpg" alt="Quiet morning by the mountain">
+          <div class="caption">Queit morning by the mountain</div>
+        </div>
+        <div class="photo">
+          <img src="images/image6.jpg" alt="University Putra Malaysia Mosque">
+          <div class="caption"></div>
+        </div>
+        <div class="photo">
+          <img src="images/image7.jpg" alt="Cats in Songdo">
+          <div class="caption">Cats in Songdo</div>
+        </div>
+        <div class="photo">
+          <img src="images/image8.jpg" alt="Incheon Chinatown">
+          <div class="caption">Incheon Chinatown</div>
+        </div>
       </div>
 
 
   - title: 🌸 Life Moments
     layout: text
     content: |
-      Not everything is about studying or projects — these are small memories that made me smile, and remind me to enjoy the little things in life 🌿  
+      Not everything is about studying and projects, these are small memories that made me smile, and remind me to enjoy the little things in life 🌿  
 
       <style>
         .gallery {
