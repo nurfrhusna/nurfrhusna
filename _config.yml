@@ -91,8 +91,8 @@ content:
         quote: >
           A mobile prototype designed for Yonsei university community.
         description: | # this will include new lines to allow paragraphs
-          Designed and prototyped an app that helps students report and return lost items efficiently.
-          Focus on usability, empathy-driven UI, and smooth user workflows using Figma.
+          Currently, I am working on designing and prototyping an app that helps students report and return lost items efficiently as part of our course team project.
+          I am focusing on usability, empathy-driven UI, and smooth user workflows using Figma.
 
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
@@ -176,7 +176,7 @@ content:
         </div>
       </div>
           
-  #- title: Experiences
+  - title: Experiences
     #layout: list
     #content:
       #- layout: right
@@ -233,8 +233,8 @@ content:
   - title: 🌸 A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Outside academics, I find joy in **photography**, capturing little moments around me.
-      Here are some of my favorite shots! 📸
+      Outside of academics, I find happiness in exploring new places and preserving small, beautiful moments through photography.
+      Here are some of my favorite shots!📸
 
       <style>
         .gallery {
@@ -301,7 +301,7 @@ content:
           <div class="caption">Queit morning by the mountain</div>
         </div>
         <div class="photo">
-          <img src="images/image6.jpg" alt="University Putra Malaysia Mosque">
+          <img src="images/image6.jpg" alt="Putra University Mosque">
           <div class="caption"></div>
         </div>
         <div class="photo">
@@ -318,7 +318,7 @@ content:
   - title: 🌸 Life Moments
     layout: text
     content: |
-      Not everything is about studying and projects, these are small memories that made me smile, and remind me to enjoy the little things in life 🌿  
+      Between all the studying and busy days, these are small memories that remind me to enjoy the little things in life 🌷🌿   
 
       <style>
         .gallery {
@@ -390,7 +390,7 @@ content:
         </div>
         <div class="photo">
           <img src="images/moment7.jpg" alt="YonGoJeon">
-          <div class="caption">My first Akaraka 💙</div>
+          <div class="caption">Our first Akaraka 💙</div>
         </div>
         <div class="photo">
           <img src="images/moment8.jpg" alt="Friends">
