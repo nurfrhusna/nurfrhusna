@@ -58,29 +58,6 @@ about_content: | # this will include new lines to allow paragraphs
   
   Living and studying abroad has taught me to embrace adaptability, empathy, and creativity. I enjoy projects that
   bridge logic and design, finding joy in crafting technology that feels intuitive and warm to users.
-
-  <style>
-    .profile-pic {
-      border-radius: 50%;
-      width: 180px;
-      height: 180px;
-      object-fit: cover;
-      animation: float 4s ease-in-out infinite;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-      transition: transform 0.3s ease;
-      display: block;
-      margin: 20px auto;
-    }
-    .profile-pic:hover {
-      transform: scale(1.05) rotate(2deg);
-    }
-    @keyframes float {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-5px); }
-    }
-  </style>
-
-  <img src="images/profile.jpg" class="profile-pic">
   
 content:
 
@@ -389,7 +366,7 @@ content:
       <div class="gallery">
         <div class="photo">
           <img src="images/moment1.jpg" alt="Our memory at LEI">
-          <div class="caption">Our memory at LEI 💙</div>
+          <div class="caption">My memory at LEI 💙</div>
         </div>
         <div class="photo">
           <img src="images/moment2.jpg" alt="With our teachers">
@@ -401,11 +378,11 @@ content:
         </div>
         <div class="photo">
           <img src="images/moment4.jpg" alt="Snowboarding Trip">
-          <div class="caption">Snowboarding Trip ❄️</div>
+          <div class="caption">Winter Trip ❄️</div>
         </div>
         <div class="photo">
           <img src="images/moment5.jpg" alt="Celebrating Eid">
-          <div class="caption">Celebrating Eid 🌙</div>
+          <div class="caption">With fellow Yonsei Friends</div>
         </div>
         <div class="photo">
           <img src="images/moment6.jpg" alt="My Birthday">
@@ -413,11 +390,11 @@ content:
         </div>
         <div class="photo">
           <img src="images/moment7.jpg" alt="YonGoJeon">
-          <div class="caption">YonGoJeon 💙💥</div>
+          <div class="caption">My first Akaraka 💙</div>
         </div>
         <div class="photo">
           <img src="images/moment8.jpg" alt="Friends">
-          <div class="caption">Friends :)</div>
+          <div class="caption">Photoshoot Day!</div>
         </div>
       </div>
 
