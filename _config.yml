@@ -282,7 +282,7 @@ content:
 
       <div class="gallery">
         <div class="photo">
-          <img src="images/image1.jpg" alt="Golden hour">
+          <img src="images/image1.jpg" alt="Golden hour at Hangang">
           <div class="caption">Golden hour</div>
         </div>
         <div class="photo">
@@ -299,11 +299,11 @@ content:
         </div>
         <div class="photo">
           <img src="images/image5.jpg" alt="Quiet morning by the mountain">
-          <div class="caption">Queit morning by the mountain</div>
+          <div class="caption">Quiet morning by the mountain</div>
         </div>
         <div class="photo">
           <img src="images/image6.jpg" alt="Putra University Mosque">
-          <div class="caption"></div>
+          <div class="caption">Putra University Mosque</div>
         </div>
         <div class="photo">
           <img src="images/image7.jpg" alt="Cats in Songdo">
@@ -387,7 +387,7 @@ content:
         </div>
         <div class="photo">
           <img src="images/moment6.jpg" alt="My Birthday">
-          <div class="caption">My Birthday 🎂</div>
+          <div class="caption">Happy Birthday to me!🎂</div>
         </div>
         <div class="photo">
           <img src="images/moment7.jpg" alt="YonGoJeon">
