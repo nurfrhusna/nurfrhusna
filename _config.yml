@@ -70,7 +70,6 @@ content:
       My curiosity lies in Human-AI Interaction, where data, design and psychology combined to improve how people connect with technology.  
       I hope to contribute to creating intelligent interfaces that understand users more than clicks and commands, creating tools that feel personal and meaningful.
       
-
       
   - title: Project Highlights # Title for the section
     layout: list # Type of content section (list/text)
@@ -91,7 +90,7 @@ content:
         quote: >
           A mobile prototype designed for Yonsei university community.
         description: | # this will include new lines to allow paragraphs
-          Currently, I am working on designing and prototyping an app that helps students report and return lost items efficiently as part of our course team project.
+          Currently, I am working on designing and prototyping an app that helps students report and return lost items efficiently as part of my course team project.
           I am focusing on usability, empathy-driven UI, and smooth user workflows using Figma.
 
       - layout: left
@@ -177,17 +176,19 @@ content:
       </div>
           
   - title: Experiences
-    #layout: list
-    #content:
-      #- layout: right
-        #title: Company name
+    layout: list
+    content:
+      - layout: left
+        title: Mathematics Tutor
         #sub_title: Job title
-        #caption: Date Range (eg. November 2016 - present)
+        caption: July - November 2024
         #link: Link to company (optional)
         #quote: >
          # Short description of the company (optional)
-        #description: | # this will include new lines to allow paragraphs
-          #Description of role
+        description: | # this will include new lines to allow paragraphs
+          Provided a one-to-one tutoring sessions that help secondary students preparing for the 
+          national examination (SPM).
+          Guiding students through tailored exam materials to master problem-solving skills.
 
   - title: Awards & Honors
     layout: list
