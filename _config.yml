@@ -49,7 +49,8 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
+about_title: About Me
+
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hello! I am Farah, a Computer Science and Engineering student from Malaysia, currently pursuing my 
@@ -57,6 +58,29 @@ about_content: | # this will include new lines to allow paragraphs
   
   Living and studying abroad has taught me to embrace adaptability, empathy, and creativity. I enjoy projects that
   bridge logic and design, finding joy in crafting technology that feels intuitive and warm to users.
+
+  <style>
+    .profile-pic {
+      border-radius: 50%;
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      animation: float 4s ease-in-out infinite;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+      display: block;
+      margin: 20px auto;
+    }
+    .profile-pic:hover {
+      transform: scale(1.05) rotate(2deg);
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+  </style>
+
+  <img src="images/profile.jpg" class="profile-pic">
   
 content:
 
@@ -111,19 +135,9 @@ content:
         description: | # this will include new lines to allow paragraphs
           Designed an interactive decision-making system to help users choose between options intuitively.
           Learned to visualize logic and apply creative thinking to coding.
-
-  #- title: Education
-    #layout: list
-    #content:
-     # - layout: top-right
-      #  title: Yonsei University
-       # sub_title: B.S. in Computer Science and Engineering
-        #caption: 2024 - Present
-        #quote: >
-          #Short institution or course description (optional)
-        #description: | # this will include new lines to allow paragraphs
-         # - Coursework: Data Structures and Algorithm, Probability & Statistic, Introduction to HCI
-          #- Developed solid foundations in programming, critical thinking, and design logic.
+          
+          Watch my presentation video here!
+          [Click to view on YouTube](https://youtu.be/nugcMvyRVoE?si=ML6h0e4zkPiUC3f5)
 
   - title: Education
     layout: text
@@ -245,7 +259,7 @@ content:
       Outside academics, I find joy in **photography**, capturing little moments around me.
       Here are some of my favorite shots! 📸
 
-      <style>
+<style>
         .gallery {
           display: flex;
           flex-wrap: wrap;
@@ -255,7 +269,7 @@ content:
         }
         .photo {
           position: relative;
-          width: 22%;
+          width: 18%; /* smaller size */
           border-radius: 12px;
           overflow: hidden;
           transition: transform 0.3s ease;
@@ -275,8 +289,8 @@ content:
           background: rgba(0, 0, 0, 0.65);
           color: #fff;
           text-align: center;
-          font-size: 1em; /* bigger text */
-          padding: 8px;
+          font-size: 0.9em;
+          padding: 6px;
           opacity: 0;
           transition: opacity 0.3s ease-in-out;
         }
