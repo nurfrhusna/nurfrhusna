@@ -83,7 +83,7 @@ content:
           <div style="text-align: center; margin-bottom: 15px;">
             <img src="images/back2u-prototype.jpg"
                  alt="Back2U App Prototype Preview"
-                 style="width: 60%; border-radius: 12px; 
+                 style="width: 40%; border-radius: 12px; 
                         box-shadow: 0 4px 12px rgba(0,0,0,0.1);
                         transition: transform 0.3s ease-in-out;"
                  onmouseover="this.style.transform='scale(1.03)';"
@@ -105,7 +105,7 @@ content:
           <div style="text-align: center; margin-bottom: 15px;">
             <img src="images/decision-maker-preview.jpg"
                  alt="Decision Maker Project Screenshot"
-                 style="width: 60%; border-radius: 12px;
+                 style="width: 40%; border-radius: 12px;
                         box-shadow: 0 4px 12px rgba(0,0,0,0.1);
                         transition: transform 0.3s ease-in-out;"
                  onmouseover="this.style.transform='scale(1.03)';"
@@ -258,8 +258,8 @@ content:
           transition: transform 0.3s ease;
         }
         .photo img {
-          width: 100%;
-          height: 100%;
+          width: 80%;
+          height: 80%;
           object-fit: cover;
           border-radius: 12px;
           display: block;
@@ -342,8 +342,8 @@ content:
           transition: transform 0.3s;
         }
         .photo img {
-          width: 100%;
-          height: 100%;
+          width: 80%;
+          height: 80%;
           object-fit: cover;
           border-radius: 12px;
           display: block;
