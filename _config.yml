@@ -258,8 +258,8 @@ content:
           transition: transform 0.3s ease;
         }
         .photo img {
-          width: 80%;
-          height: 80%;
+          width: 100%;
+          height: 100%;
           object-fit: cover;
           border-radius: 12px;
           display: block;
@@ -342,8 +342,8 @@ content:
           transition: transform 0.3s;
         }
         .photo img {
-          width: 80%;
-          height: 80%;
+          width: 100%;
+          height: 100%;
           object-fit: cover;
           border-radius: 12px;
           display: block;
