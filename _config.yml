@@ -80,24 +80,20 @@ content:
         quote: >
           A mobile prototype designed for the Yonsei University community.
         description: |
-          <div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap;">
-
+          <div style="text-align: center; margin-bottom: 15px;">
             <img src="images/back2u-prototype.jpg"
                  alt="Back2U App Prototype Preview"
-                 style="width: 35%; min-width: 240px; border-radius: 12px;
+                 style="width: 60%; border-radius: 12px; 
                         box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-                        transition: transform 0.4s ease-in-out, box-shadow 0.4s ease;"
-                 onmouseover="this.style.transform='scale(1.04)';
-                              this.style.boxShadow='0 8px 20px rgba(0,0,0,0.2)';"
-                 onmouseout="this.style.transform='scale(1)';
-                             this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)';">
+                        transition: transform 0.3s ease-in-out;"
+                 onmouseover="this.style.transform='scale(1.03)';"
+                 onmouseout="this.style.transform='scale(1)';">
+            <p style="font-size: 0.9em; color:#777;">🛠️ Prototype design work in progress</p>
+          </div>
 
-            <div style="flex: 1; min-width: 260px;">
-              Designed and prototyped an app that helps students report and return lost items efficiently as part of my course project.  
-              Focused on usability, empathy-driven UI, and smooth user workflows using Figma.  
-              <br><br>
-              🛠️ <i>Prototype design work in progress</i>
-            </div>
+          <div style="font-size: 1.05em; line-height: 1.6;">
+            Designed and prototyped an app that helps students report and return lost items efficiently as part of my course project.  
+            Focused on usability, empathy-driven UI, and smooth user workflows using Figma.
           </div>
 
       - layout: left
@@ -106,25 +102,22 @@ content:
         quote: >
           A simple creative coding project built on PlayEntry.
         description: |
-          <div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap;">
-
+          <div style="text-align: center; margin-bottom: 15px;">
             <img src="images/decision-maker-preview.jpg"
                  alt="Decision Maker Project Screenshot"
-                 style="width: 35%; min-width: 240px; border-radius: 12px;
+                 style="width: 60%; border-radius: 12px;
                         box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-                        transition: transform 0.4s ease-in-out, box-shadow 0.4s ease;"
-                 onmouseover="this.style.transform='scale(1.04)';
-                              this.style.boxShadow='0 8px 20px rgba(0,0,0,0.2)';"
-                 onmouseout="this.style.transform='scale(1)';
-                             this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)';">
+                        transition: transform 0.3s ease-in-out;"
+                 onmouseover="this.style.transform='scale(1.03)';"
+                 onmouseout="this.style.transform='scale(1)';">
+          </div>
 
-            <div style="flex: 1; min-width: 260px;">
-              Designed an interactive decision-making system to help users choose between options intuitively.  
-              Learned to visualize logic and apply creative thinking to coding.  
-              <br><br>
-              🎥 <b>Watch my demonstration video here:</b>  
-              <a href="https://youtu.be/pZS7lPYKYnA" target="_blank" style="color:#c27ba0;">Click to view on YouTube</a>
-            </div>
+          <div style="font-size: 1.05em; line-height: 1.6;">
+            Designed an interactive decision-making system to help users choose between options intuitively.  
+            Learned to visualize logic and apply creative thinking to coding.  
+            <br><br>
+            🎥 <b>Watch my demonstration video here:</b>  
+            <a href="https://youtu.be/pZS7lPYKYnA" target="_blank" style="color:#c27ba0;">Click to view on YouTube</a>
           </div>
 
   - title: Education
