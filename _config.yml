@@ -161,7 +161,7 @@ content:
           <div class="timeline-date">2024 – Present</div>
           <h4><b>Yonsei University</b></h4>
           <i>B.S. in Computer Science and Engineering</i><br>
-          <p>Coursework: Data Structure and Algorithms, Probability and Statistics, Introduction to Human-Computer Interaction (HCI).</p>
+          <p>Coursework: Data Structures and Algorithms, Probability and Statistics, Introduction to Human-Computer Interaction (HCI).</p>
         </div>
 
         <div class="timeline-item">
@@ -192,7 +192,7 @@ content:
         #quote: >
          # Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Provided a one-to-one tutoring sessions that help secondary students preparing for the 
+          Provided a one-to-one tutoring sessions that helped secondary students prepare for the 
           national examination (SPM). <br>
           Guiding students through tailored exam materials to master problem-solving skills.
 
@@ -421,7 +421,7 @@ sass:
 plugins:
  - jekyll-seo-tag
 
-exclude : [
+exclude: [
   "Gemfile",
   "Gemfile.lock",
   "node_modules",
