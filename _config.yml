@@ -323,7 +323,6 @@ content:
   - title: 🌸 Life Moments
     layout: text
     content: |
-      Between all the studying and busy days, these are small memories that remind me to enjoy the little things in life 🌷🌿   
       
       <style>
       .photo-scroll {
@@ -352,10 +351,10 @@ content:
       <p>Between all the studying and busy days, these are small memories that remind me to enjoy the little things in life 🌷</p>
   
       <div class="photo-scroll">
-        <img src="images/photo1.jpg" alt="photo 1">
-        <img src="images/photo2.jpg" alt="photo 2">
-        <img src="images/photo3.jpg" alt="photo 3">
-        <img src="images/photo4.jpg" alt="photo 4">
+        <img src="images/image1.jpg" alt="photo 1">
+        <img src="images/image2.jpg" alt="photo 2">
+        <img src="images/image3.jpg" alt="photo 3">
+        <img src="images/image4.jpg" alt="photo 4">
       </div>
   
 
