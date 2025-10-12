@@ -1,0 +1,33 @@
+<style>
+.photo-scroll {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 10px 0;
+}
+.photo-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+.photo-scroll::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+.photo-scroll img {
+  height: 230px;
+  border-radius: 10px;
+  object-fit: cover;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+</style>
+
+<h2>📷 Life Moments</h2>
+<p>Between all the studying and busy days, these are small memories that remind me to enjoy the little things in life 🌷</p>
+
+<div class="photo-scroll">
+  <img src="images/photo1.jpg" alt="photo 1">
+  <img src="images/photo2.jpg" alt="photo 2">
+  <img src="images/photo3.jpg" alt="photo 3">
+  <img src="images/photo4.jpg" alt="photo 4">
+</div>
