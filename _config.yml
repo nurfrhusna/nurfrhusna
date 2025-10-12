@@ -119,6 +119,43 @@ content:
             🎥 <b>Watch my demonstration video here:</b>  
             <a href="https://youtu.be/pZS7lPYKYnA" target="_blank" style="color:#c27ba0;">Click to view on YouTube</a>
           </div>
+
+  - title: Style Enhancements
+    layout: text
+    content: |
+      <style>
+      /* 🔹 Global link colors */
+      a {
+        color: #5b9bd5; /* soft blue for normal links */
+        text-decoration: none;
+        transition: color 0.2s ease-in-out;
+      }
+
+      a:hover {
+        color: #2e6ebd; /* darker blue on hover */
+        text-decoration: underline;
+      }
+
+      /* 🔹 Scrollbar styling */
+      ::-webkit-scrollbar {
+        height: 8px;
+        width: 8px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: #b6d4f0; /* soft blue thumb */
+        border-radius: 10px;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #9fc4eb; /* slightly darker on hover */
+      }
+
+      ::-webkit-scrollbar-track {
+        background: #f3f6fb; /* light pastel background */
+      }
+      </style>
+
           
   - title: Education
     layout: text
