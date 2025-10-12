@@ -242,83 +242,85 @@ content:
       Outside of academics, I find happiness in exploring new places and preserving small, beautiful moments through photography.
       Here are some of my favorite shots!📸
 
+  - title: 🌸 A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Outside of academics, I find happiness in exploring new places and preserving small, beautiful moments through photography.
+      Here are some of my favorite shots!📸
+
       <style>
-        .gallery {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: center;
-          gap: 10px;
-          margin-top: 15px;
-        }
-        .photo {
-          position: relative;
-          width: 18%; /* smaller size */
-          border-radius: 12px;
-          overflow: hidden;
-          transition: transform 0.3s ease;
-        }
-        .photo img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          border-radius: 12px;
-          display: block;
-        }
-        .caption {
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          background: rgba(0, 0, 0, 0.65);
-          color: #fff;
-          text-align: center;
-          font-size: 0.9em;
-          padding: 6px;
-          opacity: 0;
-          transition: opacity 0.3s ease-in-out;
-        }
-        .photo:hover .caption {
-          opacity: 1;
-        }
-        .photo:hover {
-          transform: scale(1.05);
-        }
+      .aboutme-scroll {
+        display: flex;
+        gap: 16px;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        padding: 10px 0;
+      }
+
+      .aboutme-scroll::-webkit-scrollbar {
+        height: 8px;
+      }
+
+      .aboutme-scroll::-webkit-scrollbar-thumb {
+        background: #ccc;
+        border-radius: 4px;
+      }
+
+      .aboutme-item {
+        text-align: center;
+        flex-shrink: 0;
+        scroll-snap-align: start;
+      }
+
+      .aboutme-item img {
+        height: 220px;
+        border-radius: 10px;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto 6px;
+      }
+
+      .aboutme-caption {
+        font-size: 0.9em;
+        color: #555;
+      }
       </style>
 
-      <div class="gallery">
-        <div class="photo">
+      <div class="aboutme-scroll">
+        <div class="aboutme-item">
           <img src="images/image1.jpg" alt="Golden hour at Hangang">
-          <div class="caption">Golden hour</div>
+          <div class="aboutme-caption">Golden hour</div>
         </div>
-        <div class="photo">
-          <img src="images/image3.jpg" alt="Kota Kinabalu City Mosque">
-          <div class="caption">Kota Kinabalu City Mosque</div>
+        <div class="aboutme-item">
+          <img src="images/image2.jpg" alt="Kota Kinabalu City Mosque">
+          <div class="aboutme-caption">Kota Kinabalu City Mosque</div>
         </div>
-        <div class="photo">
-          <img src="images/image2.jpg" alt="Pretty sunset">
-          <div class="caption">Pretty sunset</div>
+        <div class="aboutme-item">
+          <img src="images/image3.jpg" alt="Pretty sunset">
+          <div class="aboutme-caption">Pretty sunset</div>
         </div>
-        <div class="photo">
+        <div class="aboutme-item">
           <img src="images/image4.jpg" alt="Night at Melaka Chinatown">
-          <div class="caption">Night at Melaka Chinatown</div>
+          <div class="aboutme-caption">Night at Melaka Chinatown</div>
         </div>
-        <div class="photo">
+        <div class="aboutme-item">
           <img src="images/image5.jpg" alt="Quiet morning by the mountain">
-          <div class="caption">Quiet morning by the mountain</div>
+          <div class="aboutme-caption">Quiet morning by the mountain</div>
         </div>
-        <div class="photo">
+        <div class="aboutme-item">
           <img src="images/image6.jpg" alt="Putra University Mosque">
-          <div class="caption">Putra University Mosque</div>
+          <div class="aboutme-caption">Putra University Mosque</div>
         </div>
-        <div class="photo">
+        <div class="aboutme-item">
           <img src="images/image7.jpg" alt="Cats in Songdo">
-          <div class="caption">Cats in Songdo</div>
+          <div class="aboutme-caption">Cats in Songdo</div>
         </div>
-        <div class="photo">
+        <div class="aboutme-item">
           <img src="images/image8.jpg" alt="Incheon Chinatown">
-          <div class="caption">Incheon Chinatown</div>
+          <div class="aboutme-caption">Incheon Chinatown</div>
         </div>
       </div>
+
 
   - title: 🌸 Life Moments
     layout: text
@@ -374,7 +376,7 @@ content:
           <div class="photo-caption">With our professors</div>
         </div>
         <div class="photo-item">
-          <img src="images/moment33.jpg" alt="photo 3">
+          <img src="images/moment3.jpg" alt="photo 3">
           <div class="photo-caption">Graduation day!</div>
         </div>
         <div class="photo-item">
