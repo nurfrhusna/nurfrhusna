@@ -327,40 +327,78 @@ content:
       <style>
       .photo-scroll {
         display: flex;
-        gap: 12px;
+        gap: 16px;
         overflow-x: auto;
         scroll-snap-type: x mandatory;
         padding: 10px 0;
       }
+      
       .photo-scroll::-webkit-scrollbar {
         height: 8px;
       }
+      
       .photo-scroll::-webkit-scrollbar-thumb {
         background: #ccc;
         border-radius: 4px;
       }
-      .photo-scroll img {
-        height: 230px;
+      
+      .photo-item {
+        text-align: center;
+        flex-shrink: 0;
+        scroll-snap-align: start;
+      }
+      
+      .photo-item img {
+        height: 220px;
         border-radius: 10px;
         object-fit: cover;
-        scroll-snap-align: start;
-        flex-shrink: 0;
+        display: block;
+        margin: 0 auto 6px;
+      }
+      
+      .photo-caption {
+        font-size: 0.9em;
+        color: #555;
       }
       </style>
-  
+      
       <p>Between all the studying and busy days, these are small memories that remind me to enjoy the little things in life 🌷</p>
-  
+      
       <div class="photo-scroll">
-        <img src="images/moment1.jpg" alt="photo 1">
-        <img src="images/moment2.jpg" alt="photo 2">
-        <img src="images/moment33.jpg" alt="photo 3">
-        <img src="images/moment4.jpg" alt="photo 4">
-        <img src="images/moment5.jpg" alt="photo 5">
-        <img src="images/moment6.jpg" alt="photo 6">
-        <img src="images/moment7.jpg" alt="photo 7">
-        <img src="images/moment8.jpg" alt="photo 8">
+        <div class="photo-item">
+          <img src="images/moment1.jpg" alt="photo 1">
+          <div class="photo-caption">Memory at LEI</div>
+        </div>
+        <div class="photo-item">
+          <img src="images/moment2.jpg" alt="photo 2">
+          <div class="photo-caption">With our professors</div>
+        </div>
+        <div class="photo-item">
+          <img src="images/moment33.jpg" alt="photo 3">
+          <div class="photo-caption">Graduation day!</div>
+        </div>
+        <div class="photo-item">
+          <img src="images/moment4.jpg" alt="photo 4">
+          <div class="photo-caption">Winter trip</div>
+        </div>
+        <div class="photo-item">
+          <img src="images/moment5.jpg" alt="photo 5">
+          <div class="photo-caption">With fellow Yonsei Friends</div>
+        </div>
+        <div class="photo-item">
+          <img src="images/moment6.jpg" alt="photo 6">
+          <div class="photo-caption">Happy birthday to me:)</div>
+        </div>
+        <div class="photo-item">
+          <img src="images/moment7.jpg" alt="photo 7">
+          <div class="photo-caption">My first Akaraka!</div>
+        </div>
+        <div class="photo-item">
+          <img src="images/moment8.jpg" alt="photo 8">
+          <div class="photo-caption">Those who get my back:)</div>
+        </div>
       </div>
-  
+
 
   - title: "<span style='display:none;'>quote</span>"
     layout: text
